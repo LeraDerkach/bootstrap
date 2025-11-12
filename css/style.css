@@ -6,7 +6,7 @@
 
 .image {
     height: 400px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(img/Study.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(/img/Study.jpg);
     background-blend-mode: multiply;
     background-size: cover;
     background-repeat: no-repeat;
@@ -24,9 +24,10 @@
 
 .footer-image {
     height: 400px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(img/student.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(/img/student.png);
     background-blend-mode: multiply;
     background-size: 100%;
     background-repeat: no-repeat;
 
 }
+
