@@ -4,12 +4,25 @@
     box-sizing: border-box;
 }
 
+
+button:hover {
+    transform: scale(1.2);
+    transition: all 1s ease-out;
+    box-shadow: 0px 0px 15px 15px #EBD4B5;
+    cursor: pointer;
+}
+
 .image {
     height: 400px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(/img/Study.jpg);
+    background-image: linear-gradient(rgba(118, 114, 114, 0.7)), url(/img/Lotus.jpg);
     background-blend-mode: multiply;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.main-image {
+    max-height: 400px;
+    background: radial-gradient(circle,rgba(131, 58, 180, 1) 8%, rgba(214, 109, 109, 1) 57%, rgba(235, 212, 181, 1) 96%);
 }
 
 .section-1,
@@ -21,13 +34,12 @@
     padding: 0 60px;
 }
 
-
 .footer-image {
-    height: 400px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(/img/student.png);
+    height: 500px;
+    background-image: linear-gradient(rgba(118, 114, 114, 0.7)), url(/img/Yoga.jpg);
+    background-position: center;
     background-blend-mode: multiply;
     background-size: 100%;
     background-repeat: no-repeat;
-
 }
 
