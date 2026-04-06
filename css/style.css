@@ -36,7 +36,7 @@ button:hover {
     background-image: linear-gradient(rgba(118, 114, 114, 0.7)), url(../img/Yoga.jpg);
     background-position: center;
     background-blend-mode: multiply;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
